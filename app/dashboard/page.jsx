@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../components/components.module.css';
 import Card from '../components/card/card';
 import Transactions from '../components/transactions/transactions';
