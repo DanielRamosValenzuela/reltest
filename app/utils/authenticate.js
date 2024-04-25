@@ -8,7 +8,6 @@ export const authenticate = async (formData) => {
   try {
     await signIn('credentials', { username, password });
   } catch (err) {
-    console.log('🚀 ~ authenticate ~ err:', err.message);
     if (err.message.includes('credentialssignin')) {
       return { error: 'Error en usuario o contraseña' };
     }
