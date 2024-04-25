@@ -1,6 +1,6 @@
 {
   "name": "reltest",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@cloudinary/react": "^1.13.0",
+    "@cloudinary/url-gen": "^1.19.0",
     "bcrypt": "^5.1.1",
     "i": "^0.3.7",
     "mongodb": "^6.5.0",
